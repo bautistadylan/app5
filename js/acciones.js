@@ -1,7 +1,7 @@
-//JavaScript Document
+//JavaScript
 
     $(document).ready(function(e){
-	document.addEventListener("deviciready",function(){
+	document.addEventListener("deviceready",function(){
 	
     $('#beep').tap(function(){
 	navigator.notification.beep(1);
